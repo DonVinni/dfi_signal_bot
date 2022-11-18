@@ -81,7 +81,7 @@ class DefichainApiService
         try {
             return json_decode(
                        $this->oceanClient->get(sprintf(config('api_defichain.ocean.blocks'), $blockHeight), [
-                           'timeout'            => 5,
+                           'timeout'            => 35,
                            'connection_timeout' => 5,
                        ])->getBody()->getContents(),
                        true
