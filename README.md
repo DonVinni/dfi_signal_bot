@@ -15,6 +15,8 @@ Get all information on [DFI-Signal.com](https://dfi-signal.com).
 - */rewards* - show rewards for all active masternodes
 - */rewardsall* - show rewards for all masternodes, even resigned ones
 - */rewardsbynode* - show reward details for each masternode
+- */masternode_health* - setup service or show latest info
+- */masternode_health_reset* - delete all data and stop service
 - */reset* - remove all stored data and reset your DFI Signals
 - */stop* - stops the current conversation with the bot
 
